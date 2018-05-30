@@ -9,7 +9,7 @@ header{
 }
 nav li{
     display: inline;
-    font-size: 20px;
+    font-size: 30px;
 }
 nav table{
     margin: auto;
@@ -19,10 +19,9 @@ nav ul{
     margin: 0;
 }
 nav img{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
-<<<<<<< Updated upstream
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
@@ -161,5 +160,3 @@ label, a{ /*при наведении на стрелки или переклю�
     width: 100%;
     height: 350px;
 }
-=======
->>>>>>> Stashed changes

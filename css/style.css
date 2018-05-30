@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+
 html, body{
     padding: 0;
     margin: 0;
+    font-family: 'Kurale', serif;
 }
 header{
     background-color: #7f3029;
@@ -160,3 +164,14 @@ label, a{ /*при наведении на стрелки или переклю�
     width: 100%;
     height: 350px;
 }
+<<<<<<< HEAD
+=======
+.ots{
+    margin-left: 3%;
+}
+
+.our_contacts{
+    margin-left: 1%;
+
+}
+>>>>>>> fonts

@@ -5,7 +5,20 @@ html, body{
 header{
     background-color: #7f3029;
     color: white;
+    text-align: center;
 }
 nav li{
     display: inline;
+    font-size: 20px;
+}
+nav table{
+    margin: auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav img{
+    margin-left: 50px;
+    margin-right: 50px;
 }

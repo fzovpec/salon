@@ -236,3 +236,8 @@ label, a{ /*при наведении на стрелки или переклю�
 	text-align: center;
 	top: 200px;
 }
+.services_item:hover  img {
+    box-shadow: 10px 10px 10px #FF8A80;
+
+
+}

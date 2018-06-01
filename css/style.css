@@ -191,7 +191,7 @@ label, a{ /*при наведении на стрелки или переклю�
     padding:3%;
 }
 .phones{
-	display: block;
+	display: none;
 	position: absolute;  
 	background-color: white;
 	padding: 15px;

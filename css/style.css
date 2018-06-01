@@ -18,7 +18,7 @@ nav{
 }
 nav li{
     display: inline;
-	font-size: 60px;
+	font-size: 20px;
 	padding-right: 20px;
 }
 nav table{
@@ -192,9 +192,12 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .phones{
 	display: none;
-	position: absolute;  
+	position: absolute;
 	background-color: white;
 	padding: 15px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-size: 20px; 
+}
+.call{
+	cursor: pointer;
 }

@@ -167,7 +167,7 @@ label, a{ /*при наведении на стрелки или переклю�
 	transition: opacity 0.2s ease-out;
 }
 .img_in_slider{
-    width: 100%;
+    width: 80%;
     height: 350px;
 }
 
@@ -192,11 +192,15 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .phones{
 	display: none;
+	float: left;
 	position: absolute;
 	background-color: white;
 	padding: 15px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	font-size: 20px; 
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 20px;
+	left: 0%;
+	margin: 0;
 }
 .call{
 	cursor: pointer;

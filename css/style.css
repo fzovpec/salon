@@ -4,7 +4,7 @@
 html, body{
     padding: 0;
     margin: 0;
-    font-family: 'Kurale', serif;
+	font-family: 'Kurale', serif;
 }
 header{
     background-color: #7f3029;
@@ -213,4 +213,11 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .call{
 	cursor: pointer;
+}
+.services_item{
+	text-align: center;
+}
+.images{
+	width: 100%;
+	overflow: hidden;
 }

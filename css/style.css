@@ -225,3 +225,14 @@ label, a{ /*при наведении на стрелки или переклю�
 .services_item{
     margin-top:2%;
 }
+.name_services{
+	position: relative;
+	background-color: rgb(151, 0, 0);
+	width: 300px;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	text-align: center;
+	top: 200px;
+}

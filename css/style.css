@@ -238,6 +238,12 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .services_item:hover  img {
     box-shadow: 10px 10px 10px #FF8A80;
-
-
+}
+.photos_salon{
+	text-align: center;
+	margin-top: 20px;
+}
+.photos_salon_img{
+	width: 300px; 
+	height: 200px;
 }

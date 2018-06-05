@@ -253,3 +253,15 @@ label, a{ /*при наведении на стрелки или переклю�
 	left: 45%;
 	z-index: 9999;
 }
+#icon_close_1{
+	position: absolute;
+	display: none;
+	left: 45%;
+	z-index: 9999;
+}
+#icon_close_2{
+	position: absolute;
+	display: none;
+	left: 45%;
+	z-index: 9999;
+}

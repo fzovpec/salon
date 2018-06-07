@@ -250,6 +250,7 @@ label, a{ /*при наведении на стрелки или переклю�
 #icon_close{
 	position: absolute;
 	display: none;
+	width: 10%;
 	left: 45%;
 	z-index: 9999;
 }
@@ -257,12 +258,14 @@ label, a{ /*при наведении на стрелки или переклю�
 	position: absolute;
 	display: none;
 	left: 45%;
+	width: 10%;
 	z-index: 9999;
 }
 #icon_close_2{
 	position: absolute;
 	display: none;
 	left: 45%;
+	width: 10%;
 	z-index: 9999;
 }
 .h_article{

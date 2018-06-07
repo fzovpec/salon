@@ -1,4 +1,5 @@
 function plus_picture(index, other_index, other_index_1){
+    var document_width =  getComputedStyle(document.body).width.replace(/\D/g,'');
     var img = document.getElementsByClassName('photos_salon_img')[index];
     var other_img = document.getElementsByClassName('photos_salon_img')[other_index];
     var other_img_1 = document.getElementsByClassName('photos_salon_img')[other_index_1];
@@ -9,26 +10,32 @@ function plus_picture(index, other_index, other_index_1){
     other_img_1.style.display = 'none';
     img.style.position = 'relative';
     img.style.zIndex = '9998';
-    img.style.width = '700px';
+    img.style.textAlign = 'center';
     img.style.height = '80%';
     img.style.margin = 'auto';
-    if(index == 0 || index == 3 || index == 6){
-        img.style.left = '350px';
-    }
-    else if(index == 1 || index == 4 || index == 7){
-        img.style.right = '100px';
+    if(document_width>768){
+        img.style.width = '130%';
+        if(index == 0 || index == 3 || index == 6){
+            img.style.left = '90%';
+        }
+        else if(index == 1 || index == 4 || index == 7){
+            img.style.marginRight = '120%';
+        }
+        else{
+            img.style.right = '100%';
+        }
+        if(index<3){
+            icon_close.style.display = 'block';
+        }
+        else if(index>2 && index <6){
+            icon_close_1.style.display = 'block';
+        }
+        else{
+            icon_close_2.style.display = 'block';
+        }   
     }
     else{
-        img.style.right = '600px'
-    }
-    if(index<3){
-        icon_close.style.display = 'block';
-    }
-    else if(index>2 && index <6){
-        icon_close_1.style.display = 'block';
-    }
-    else{
-        icon_close_2.style.display = 'block';
+        img.style.width = '80%';
     }
 }
 function close_picture1_3(){

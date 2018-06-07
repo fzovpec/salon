@@ -265,3 +265,17 @@ label, a{ /*при наведении на стрелки или переклю�
 	left: 45%;
 	z-index: 9999;
 }
+.h_article{
+	color: rgb(95, 57, 26);
+	font-size: 30px;
+}
+article{
+	padding: 10px;
+}
+.img_about_us{
+	width: 100%;
+	height: auto;
+}
+.h_description{
+	font-size: 25px;
+}
